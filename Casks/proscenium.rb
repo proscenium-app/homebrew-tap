@@ -1,6 +1,6 @@
 cask "proscenium" do
-  version "1.0.2"
-  sha256 "422a9dc6182a8a7921d6bae2f33acc63ae46eed90981d7d00b2c262d5c508f4d"
+  version "1.0.3"
+  sha256 "55c29daf6dadc9e3a196ef20c1bea0017fe629cbcf7ceeeaee1c9520e2813806"
 
   url "https://github.com/proscenium-app/proscenium/releases/download/v#{version}/Proscenium_#{version}_universal.dmg"
   name "Proscenium"
