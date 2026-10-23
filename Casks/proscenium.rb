@@ -2,13 +2,13 @@ cask "proscenium" do
   version "1.0.4"
   sha256 "2322d67c3f8ecdd8e41f7308e259e7153b18cf5c49d6534035d41dae10274d96"
 
-  url "https://github.com/proscenium-app/proscenium/releases/download/v#{version}/Proscenium_#{version}_universal.dmg"
+  url "https://updates.proscenium.ink/v1/download/v#{version}/Proscenium_#{version}_universal.dmg"
   name "Proscenium"
   desc "Write stage plays in industry-standard format"
   homepage "https://proscenium.ink/"
 
   livecheck do
-    url :url
+    url "https://github.com/proscenium-app/proscenium"
     strategy :github_latest
   end
 
